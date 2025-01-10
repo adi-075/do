@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "organizer"
+version = "1.0.0"
+description = "A Python script to organize your Downloads folder."
+authors = ["Aditya Mhambrey"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+argparse = "*"
+
+[tool.poetry.scripts]
+organize-files = "organizer.main:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
