@@ -16,17 +16,27 @@ pip install -e .
 ## Usage
 Organize your Downloads folder
 
-```py
+```sh
 python main.py -h
 usage: main.py [options] [directory]
 
-Organize files in your Downloads folder with do.
+```
 
-positional arguments:
-  directory   The directory to organize. Defaults to the Downloads folder
-
-options:
-  -h, --help  show this help message and exit
+## Project Structure
+```
+do/                          
+├── organizer/                
+│   ├── __init__.py            
+│   ├── file_organizer.py      # File organizing logic
+│   └── config.py              # Configure the Folder and the extensions 
+├── test/                     
+│   ├── __init__.py            
+│   └── test_organizer.py      # Unit tests for the file organizer
+├── pyproject.toml             
+├── main.py                    # Main function ( Call this )
+├── README.md                  
+├── .gitignore                
+└── LICENSE
 ```
 
 - The config.py file sets up categories to sort your files
