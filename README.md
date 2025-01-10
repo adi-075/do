@@ -1,5 +1,5 @@
 # do
-A simple Download Organizer
+A Simple Downloads Folder Organizer
 
 ## Installation
 Clone the repository:
