@@ -1,5 +1,7 @@
-# do
+# do 
 A Simple Downloads Folder Organizer
+
+Automatically sort the files present in your Downloads folder based on their extensions. 
 
 ## Installation
 Clone the repository:
