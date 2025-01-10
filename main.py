@@ -13,7 +13,9 @@ def main() -> None:
     """
     # Set up CLI argument parsing
     parser = argparse.ArgumentParser(
-        description="Organize files in your Downloads folder with do.")
+        description="Organize files in your Downloads folder with do.",
+        usage="%(prog)s [options] [directory]"
+    )
     parser.add_argument(
         "directory",
         type=str,
