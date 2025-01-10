@@ -3,8 +3,8 @@ A simple Download Organizer
 
 ## Installation
 Clone the repository:
-```sh
-https://github.com/adi-075/do
+```
+git clone https://github.com/adi-075/do
 cd do
 ```
 
